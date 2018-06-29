@@ -1,7 +1,6 @@
-# 基于Python3.6的镜像
 FROM python:3.6
 
-# 安装Flask依赖
+# 安装依赖
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
